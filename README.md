@@ -107,4 +107,4 @@ But finding #1 means a confidence threshold isn't enough on its own — confiden
 
 ---
 
-*Built by [Apoorva Shakya] · [LinkedIn] · [email]*
+*Built by [Apoorva Shakya] · [[LinkedIn]([url](https://www.linkedin.com/in/apoorva-shakya-3073b5192/))] · [[email](apoorvashakya.eta@gmail.com)]*
