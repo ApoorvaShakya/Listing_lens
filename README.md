@@ -103,7 +103,6 @@ But finding #1 means a confidence threshold isn't enough on its own — confiden
 2. Put your images and `golden_set.csv` in a Google Drive folder.
 3. Run the notebook top to bottom: it tags all images → saves `ai_results.csv` → scores against the golden set → prints the scorecard.
 
-**Links:** `[live demo]` · `[notebook / repo]` · `[2-min Loom walkthrough]`
 
 ---
 
