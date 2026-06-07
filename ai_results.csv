@@ -1,0 +1,31 @@
+filename,ai_is_a_room_photo,ai_room_type,ai_style,ai_objects,ai_condition,ai_description,ai_confidence,latency_sec
+img01.jpg,True,living room,modern,sectional sofa; coffee table; floor lamp; large windows; wall art,furnished,A modern living room with a large sectional sofa and floor-to-ceiling windows overlooking a city view.,95.0,2.44
+img02.jpg,True,dining room,modern,dining table; dining chairs; pendant lights; plant; sofa; coffee table; armchair; lamp; rug; artwork,furnished,"A well-lit dining and living area with a modern aesthetic, featuring a wooden dining set and a comfortable seating area.",95.0,2.84
+img03.jpg,True,living room,bohemian; modern,armchair; ottoman; console table; mirror; plants; floor lamp; rug,furnished,"A stylish living room with a vibrant orange armchair, a console table, and lush plants.",95.0,2.73
+img04.jpg,True,bedroom,modern; glam,bed; nightstand; ottoman; rug; curtains; chandelier; table lamp; artwork,furnished,"A modern bedroom with a plush white bed, striking artwork, and city views through large windows.",95.0,3.7
+img05.jpg,True,bedroom,modern; minimalist,bed; nightstand; table lamp; pillows,furnished,"A cozy bedroom with a bed, nightstand, and a modern lamp.",95.0,2.4
+img06.jpg,True,bedroom,modern,bed; nightstand; armchair; rug; window; curtains; lamp; picture frame; table,furnished,A well-lit bedroom with a large window overlooking trees.,95.0,3.16
+img07.jpg,True,kitchen,modern; transitional,cabinets; sink; faucet; oven; dishwasher; range hood; shelves; rug; light fixture,furnished,"A modern kitchen with dark gray cabinets, white subway tile backsplash, and marble countertops.",98.0,2.15
+img08.jpg,True,kitchen,modern,refrigerator; kitchen island; bar stool; sink; faucet; stove; oven; cabinet; vase; plant,furnished,A modern kitchen with light wood floors and a large window overlooking lush greenery.,95.0,3.38
+img09.jpg,True,kitchen,farmhouse; bohemian,kitchen island; stools; refrigerator; pots and pans; hanging light fixture; rug; cabinets; countertops; stove; shelves; books; lamp,furnished,A cozy and rustic kitchen with a large wooden island and hanging pots.,95.0,3.38
+img10.jpg,True,bathroom,modern,bathtub;  sink;  mirror;  towel rack;  plant,furnished,A modern bathroom with a freestanding bathtub and a vessel sink.,95.0,2.28
+img11.jpg,True,bathroom,modern,toilet; sink; mirror; cabinet; plants,furnished,A bright and clean bathroom with a checkered floor and several potted plants.,95.0,4.75
+img12.jpg,True,bathroom,modern; natural,bathtub;  shower;  toilet;  vanity;  mirror;  plant,furnished,"A modern bathroom with a freestanding bathtub, a walk-in shower, and a wooden vanity, bathed in natural light.",95.0,6.09
+img13.jpg,True,dining room,rustic; modern,dining table; dining chairs; pendant lights; wreath; artwork,furnished,"A rustic dining room set for a holiday meal, featuring a wooden table, chairs, and festive decorations.",95.0,4.01
+img14.jpg,True,dining room,modern,dining table; dining chairs; buffet; lamp; vase; record player; speaker; door,furnished,A modern dining room with a black dining set and large windows overlooking a forest.,95.0,1.59
+img15.jpg,True,dining room,modern; rustic,dining table; dining chairs; chandelier; buffet; rug; artwork,furnished,"A beautifully decorated dining room with a large wooden table, chairs, and a floral garland draped around the windows.",95.0,4.19
+img16.jpg,True,home office,modern; bohemian,desk; computer; chair; plant; rug; wall art; chair; window; curtains,furnished,"A modern home office with a desk, computer, and comfortable seating, decorated with plants and wall art.",95.0,2.54
+img17.jpg,True,home office,rustic; natural,desk; laptop; lamp; plant; phone; earbuds; camera lens; book,furnished,A cozy home office setup with a live-edge desk overlooking a winter forest.,95.0,2.87
+img18.jpg,True,home office,modern; minimalist,desk; chair; computer; lamp; plant,furnished,"A clean and modern home office setup with a desk, computer, and chair.",95.0,1.44
+img19.jpg,True,balcony,modern,sectional sofa; coffee table; string lights; plants; fire pit,furnished,"A modern balcony with a sectional sofa, coffee table, and string lights overlooking a city view at dusk.",95.0,3.96
+img20.jpg,False,none,unclear,,unfurnished,An exterior view of a building with balconies and windows.,100.0,3.08
+img21.jpg,True,room,modern,window; electrical outlet; sprinkler head; vent,unfurnished,"An empty room with white walls, a large window, and light wood flooring.",95.0,3.95
+img22.jpg,True,bedroom,unclear,curtains; desk; bed,furnished,A dimly lit room with a window covered by sheer curtains and a desk with papers.,75.0,2.85
+img23.jpg,True,bedroom,modern,bed; desk; chair; computer; lamp; stool; picture frames,furnished,"A modern bedroom with a bed, desk, and decorative art.",95.0,2.24
+img24.jpg,False,none,unclear,,unfurnished,A garden with flowers and a white fence.,100.0,3.11
+img25.jpg,False,none,unclear,,unfurnished,A floor plan drawing with a tape measure and pen on a wooden desk.,95.0,11.06
+img26.jpg,True,room,unclear,,unclear,"A blurry, abstract image with warm tones, possibly depicting a person or a room.",10.0,2.44
+img27.jpg,True,kitchen,unclear,ladder; table,under_renovation,A kitchen under renovation with exposed wires and a ladder.,95.0,2.49
+img28.jpg,True,room,modern; organic,sofa; chair; table,furnished,"A modern room with organic, wave-like wooden paneling and built-in seating.",95.0,2.56
+img29.jpg,True,none,unclear,mirror; lamp; flowers,unclear,"A close-up of yellow tulips reflected in a mirror, with a lamp and vase visible.",30.0,2.4
+img30.jpg,True,room,unclear,scale; desk; chair; stool; poster; clock; trash can,furnished,"A sparsely furnished medical examination room with a scale, desk, and chairs.",85.0,5.07

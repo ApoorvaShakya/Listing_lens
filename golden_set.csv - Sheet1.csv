@@ -1,0 +1,31 @@
+filename,golden_room_type,golden_style,golden_objects,golden_condition,edge_case_label,expected_behavior
+img01.jpg,living room,modern,sofa; coffee table; floor lamp; windows,furnished,Normal,
+img02.jpg,living room,scandinavian,dining table; sofa; coffee table; pendant lights; windows; plant,furnished,Normal,
+img03.jpg,living room,modern,armchair; cabinet; mirror; plants; lamp; ottoman,furnished,Normal,
+img04.jpg,bedroom,modern,bed; desk; stools; Rug; curtains; ,furnished,Normal,
+img05.jpg,bedroom,modern,lamp; bed; nightstand,staged,Normal,
+img06.jpg,bedroom,minimalist,bed; desk; stools; Rug; curtains; lamp; nightstand,furnished,Normal,
+img07.jpg,kitchen,modern,windows; cabinets; plants; pots,furnished,Normal,
+img08.jpg,kitchen,minimalist,chair; windows; plants; cabinets; stove; sink,furnished,Normal,
+img09.jpg,kitchen,rustic,pots; dining table; dining chairs; plants; stove,furnished,Normal,
+img10.jpg,bathroom,scandinavian,towels; bathtub; sink; plants; taps,semi-furnished,Normal,
+img11.jpg,bathroom,traditional,toilet; stool; window; plant; sink; mirror; ,furnished,Normal,
+img12.jpg,bathroom,modern,bathtub; plant; toilet; sink; mirror; shower; window,furnished,Normal,
+img13.jpg,dining room,modern,dining table; dining chairs; windows; rug; plants,furnished,Normal,
+img14.jpg,dining room,scandinavian,dining table; dining chairs; windows; plants; door; wall hanging,furnished,Normal,
+img15.jpg,dining room,traditional,dining table; dining chairs; windows; plants; paintings; lamp,furnished,Normal,
+img16.jpg,home office,scandinavian,monitor; chairs; table; window; curtain; plants; lamp,furnished,Normal,
+img17.jpg,home office,rustic,lamp; laptop; window; plants,furnished,Normal,
+img18.jpg,home office,modern,table; chair; lamp; plant,furnished,Normal,
+img19.jpg,balcony,modern,plants; sofa; table; sky,furnished,Normal,
+img20.jpg,balcony,classic,door; plants; chair; sky,furnished,Normal,
+img21.jpg,room,modern,window,unfurnished,empty_room,Condition = unfurnished; objects = none (fixtures like a window are fine). Must not invent furniture. Moderate-to-low confidence is acceptable.
+img22.jpg,room,classic,none,unfurnished,low_light,"Attempt room ID from visible cues; lower confidence is correct, not a failure. Must not fabricate objects it can't clearly see; should trip the human-review flag."
+img23.jpg,bedroom,modern,bed; painting; chair; table; stool; monitor; laptop; dustbin; lamp,furnished,cluttered_multipurpose,Commit to the dominant function (bedroom) — may note secondary office use; list the main visible objects. Tests handling ambiguity without flip-flopping.
+img24.jpg,None,unclear,none,unfurnished,wrong_subject_exterior,is_a_room_photo = false; declines to assign an interior room type; low confidence. Correctly recognizes it's not an interior.
+img25.jpg,None,unclear,none,staged,wrong_input_floorplan,"is_a_room_photo = false; recognizes a drawing/plan, not a photo; refuses to tag; low confidence."
+img26.jpg,room,unclear,none,staged,blurry,"If discernible, identify with reduced confidence; if illegible, low confidence + review flag. Must not over-claim detail it can't see."
+img27.jpg,room,modern,none,unfurnished,under_renovation,"Identify room type if possible; condition = under_renovation; recognizes the bare/incomplete state — must not call it ""furnished."""
+img28.jpg,room,modern,none,unfurnished,extreme_style,Identify room type normally; an unusual or uncertain style tag is acceptable. Tests whether atypical aesthetics throw it off.
+img29.jpg,room,modern,mirror,unfurnished,mirror_reflection,Identify as one room; must not count the reflection as a second room or double the space. The mirror itself is a valid object.
+img30.jpg,room,traditional,table; chair; lamp; plant,furnished,watermarked_collage,Tag the room normally — the watermark must not affect extraction (robustness test). Confidence should stay reasonable despite the overlay.
